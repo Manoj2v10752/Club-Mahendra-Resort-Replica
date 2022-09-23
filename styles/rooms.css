@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+header {
+    background-image:url(/assets/12345566.jpg);
+    background-size: cover;
+    display: flex;
+    padding: 1rem 5%;
+    justify-content: space-between;
+    align-items: baseline;
+    background-blend-mode: darken;
+}
+.subtitle{
+    font-size: 16px;
+    color: #cb1369;
+    /* font-style: oblique; */
+    font-family: 'Bungee Spice', cursive;
+    /* padding-bottom: 20px; */
+}
+.dega{
+padding-left: 212px;
+}
+.rooms {
+    padding: 1.5rem 5%;
+    background: color #f1f1f1;;
+}
+
+.rooms-container {
+    display: flex;
+    margin-top: 1rem;
+    animation-duration: inherit;
+}
+
+.room-type {
+    position: relative;
+    margin-right: 1rem;
+    width: 50%;
+    height: 60vh;
+    background-size: cover;
+}
+
+.room-type:last-child {
+    margin-right: 0;
+}
+
+.room-type p {
+    color: rgb(250, 244, 244);
+    font-size: 18px;
+    position: absolute;
+    z-index: 99;
+    bottom: 1rem;
+    left: 8px;
+}
+
+.room-type:nth-child(1) { background-image: url('/assets/Superior_Studio.jpg'); }
+.room-type:nth-child(2) { background-image: url('/assets/1br-3.jpg'); }
